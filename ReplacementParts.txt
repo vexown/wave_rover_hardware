@@ -1,0 +1,25 @@
+This is a list of hardware that is used within the Wave Rover. Use it as a reference when buying replacement parts.
+
+1. Upper Computer - Raspberry Pi 4B 8GB RAM
+2. Lower Computer - Waveshare General Driver for Robots rev 1.2 (ESP32-based): https://www.waveshare.com/general-driver-for-robots.htm
+3. Power Supply - Waveshare UPS module: https://www.waveshare.com/ups-module-3s.htm
+4. Batteries for Power Supply - Sanyo NCR18650GA - akumulator Li-Ion 18650 3,7V 3500mAh
+5. Motors (x4): (they don't have an encoder by default, but there is a potential upgrade WITH encoders: https://kamami.pl/en/dc-motors-direct-current/1189460-n20-dc-gear-motor-magnetic-hall-encoder-all-metal-gearbox-high-precision-reduction-motor-with-l-5906623485239.html )
+    - Model: GF12-N20 Motor 12V200rpm Gearbox (https://kamami.pl/silniki-micro-z-metalowa-przekladnia-mechanika/582308-200rpm-12v-n20-miniaturowy-silnik-z-przekladnia-5906623459476.html)
+    - Rated voltage: 12V
+    - Rated current: 0.055A
+    - Locked rotor current: 0.45A
+    - Rated torque: 0.09kg.cm
+    - Locked rotor torque: 0.7kg.cm
+    - Rated output power: 1.5W
+    - No-load speed: 66±10%RPM
+    - Motor size: 34*12mm
+    - Output shaft size: 4*10mm
+7. Motor Holders - They are weak so I designed my own. See the .stl and .gcode files in this repo.
+8. Wheels with Tires (x4) (couldn't find an exact match, so you would have to find something else that fits)
+    - Diameter: 78mm
+    - Width: 42mm
+    - Hex Hub: 12mm
+    - Thread Type: Offroad
+9. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
+
