@@ -4,18 +4,17 @@ This is a list of hardware that is used within the Wave Rover. Use it as a refer
 2. Lower Computer - Waveshare General Driver for Robots rev 1.2 (ESP32-based): https://www.waveshare.com/general-driver-for-robots.htm
 3. Power Supply - Waveshare UPS module: https://www.waveshare.com/ups-module-3s.htm
 4. Batteries for Power Supply - Sanyo NCR18650GA - akumulator Li-Ion 18650 3,7V 3500mAh
-5. Motors (x4): (they don't have an encoder by default, but there is a potential upgrade WITH encoders: https://kamami.pl/en/dc-motors-direct-current/1189460-n20-dc-gear-motor-magnetic-hall-encoder-all-metal-gearbox-high-precision-reduction-motor-with-l-5906623485239.html )
-    - Model: GF12-N20 Motor 12V200rpm Gearbox (https://kamami.pl/silniki-micro-z-metalowa-przekladnia-mechanika/582308-200rpm-12v-n20-miniaturowy-silnik-z-przekladnia-5906623459476.html)
+5. Motors (x4) - I've replaced the original ones (or some of them at least) with https://pl.aliexpress.com/item/32910935772.html?spm=a2g0o.order_list.order_list_main.5.21ef1c24ThuvmG&gatewayAdapt=glo2pol
+    - Model: Bringsmart N20 Brushed micro DC motor
     - Rated voltage: 12V
-    - Rated current: 0.055A
-    - Locked rotor current: 0.45A
-    - Rated torque: 0.09kg.cm
-    - Locked rotor torque: 0.7kg.cm
-    - Rated output power: 1.5W
-    - No-load speed: 66±10%RPM
-    - Motor size: 34*12mm
-    - Output shaft size: 4*10mm
-7. Motor Holders - They are weak so I designed my own. See the .stl and .gcode files in this repo.
+    - Speed: 200RPM (no load)
+    - Current: 0.2A (rated), 0.3A (stall)
+    - Torque: 1kg·cm
+    - Reducation ratio: 1:150
+    - Motor size: 15mm x 12.1mm
+    - Gearbox size: 9mm x 12.1mm
+    - Output shaft: 10mm D-shaft with 3mm diameter (2.5mm measuring from flat D part)
+7. Motor Holders - They are weak so I designed my own for N20 motors. See the .stl and .gcode files in this repo.
 8. Wheels with Tires (x4) (couldn't find an exact match, so you would have to find something else that fits)
     - Diameter: 78mm
     - Width: 42mm
