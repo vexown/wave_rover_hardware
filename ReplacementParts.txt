@@ -31,5 +31,6 @@ This is a list of hardware that is used within the Wave Rover. Use it as a refer
     - Width: 42mm
     - Hex Hub: 12mm
     - Thread Type: Offroad
+    TODO - replace the wheels with bigger ones for the new motors: https://pl.aliexpress.com/w/wholesale-robot-wheels-big.html?spm=a2g0o.productlist.search.0
 9. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
 
