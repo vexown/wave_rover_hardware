@@ -19,17 +19,30 @@ Use it as a reference when buying replacement parts.
     - Motor size: 60mm length (with encoder, without shaft), 37mm diameter (gets smaller in certain parts)
     - Output shaft: 15mm D-shaft with 6mm diameter (5.5mm measuring from flat D part)
 
-6. Metal Brackets with 4 M3 screw holes
+6. Motor Driver - originally dual-channel TB6612FNG on the wave rover Lower Computer but replaced with 2 one-channel BTS7960B-based drivers:
+    - H-bridge based on two BTS7960 chips
+    - Motor operating voltage: from 5V to 27V
+    - Control voltage: from 3.3V to 5V
+    - Maximum current: 43A
+    - PWM duty cycle: 0-100%
+    - PWM signal frequency: up to 25 kHz
+    - Built-in buffer: separating power circuits from control signal (74HC244)
+    - Dimensions: 50x50x40 mm
 
-7. Wheels with Tires (x4) - came with the motors: https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
+7. Motor Expanders - 3D-printed pieces which extend the placement of the motors from the small wave rover frame into much bigger size
+    - See MotorExpander.stl in 3D_Models
+
+8. Metal Brackets with 4 M3 screw holes
+
+9. Wheels with Tires (x4) - came with the motors: https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
     - Diameter: 87mm
     - Width: 40mm
     - Hex Hub: ? [to be measured]
     - Thread Type: Offroad, with dimples
 
-8. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
+10. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
 
-9. Robotic Arm - an addition to the rover to extend its capabilities. 5 + 1 DOF High-Torque Serial Bus Servo Robotic Arm Kit
+11. Robotic Arm - an addition to the rover to extend its capabilities. 5 + 1 DOF High-Torque Serial Bus Servo Robotic Arm Kit
     - Model: RoArm-M3-Pro from Waveshare https://www.waveshare.com/roarm-m3.htm
     - Firmware and MCU: ESP32-based, open-source firmware
     - Communication: WiFi / ESP-NOW / USB / UART
