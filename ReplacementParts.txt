@@ -48,3 +48,5 @@ Use it as a reference when buying replacement parts.
     - Communication: WiFi / ESP-NOW / USB / UART
     - Weight: ~1kg
     - Reach and load: 200g at max reach of 0.5m
+
+12. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
