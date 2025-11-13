@@ -51,4 +51,6 @@ Use it as a reference when buying replacement parts.
     - Weight: ~1kg
     - Reach and load: 200g at max reach of 0.5m
 
-13. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+13. Robotic Arm Mount - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover. (TODO - in the process of designing)
+
+14. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
