@@ -53,4 +53,6 @@ Use it as a reference when buying replacement parts.
 
 13. Robotic Arm Mount - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl)
 
-14. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+14. Arm Camera Mount - a 3D-printed mount for the camera and the whatever computer the camera is connected to (TODO) 
+
+15. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
