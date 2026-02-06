@@ -55,4 +55,9 @@ Use it as a reference when buying replacement parts.
 
 14. Arm Camera Mount - a 3D-printed mount for the camera and the whatever computer the camera is connected to (TODO) 
 
-15. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+15. Camera - Raspberry Pi Camera Module 3 
+	- Official Site: https://www.raspberrypi.com/products/camera-module-3/
+	- 12-megapixel camera built around the Sony IMX708 sensor with a resolution of 4608 × 2592 pixels
+	- There is a few options of this camera, I use the Standard, normal FoV model
+
+16. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
