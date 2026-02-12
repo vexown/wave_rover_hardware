@@ -61,3 +61,7 @@ Use it as a reference when buying replacement parts.
 	- There is a few options of this camera, I use the Standard, normal FoV model
 
 16. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+
+17. LoRa Li-po powered emergency control / life beacon module:
+	- Heltec V3 LoRa module with Li-po management (SX1262 + ESP32-S3):  https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/
+	- 1 Li-ion 18650 cell with cell holder
