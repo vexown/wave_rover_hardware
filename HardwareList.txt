@@ -53,15 +53,22 @@ Use it as a reference when buying replacement parts.
 
 13. Robotic Arm Mount - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl)
 
-14. Arm Camera Mount - a 3D-printed mount for the camera and the whatever computer the camera is connected to (TODO) 
-
-15. Camera - Raspberry Pi Camera Module 3 
+14. Camera - Raspberry Pi Camera Module 3 
 	- Official Site: https://www.raspberrypi.com/products/camera-module-3/
 	- 12-megapixel camera built around the Sony IMX708 sensor with a resolution of 4608 × 2592 pixels
 	- There is a few options of this camera, I use the Standard, normal FoV model
 
-16. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+15. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
 
-17. LoRa Li-po powered emergency control / life beacon module:
+16. LoRa Li-po powered emergency control / life beacon module:
 	- Heltec V3 LoRa module with Li-po management (SX1262 + ESP32-S3):  https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/
 	- 1 Li-ion 18650 cell with cell holder
+
+17. High data-rate RF setup (video streaming and more):
+    - 2x LB-LINK BL-M8812EU2 modules (RTL8812EU chipset, 5.8 GHz bare PCB).
+    https://pl.aliexpress.com/item/1005007386940533.html?spm=a2g0o.cart.0.0.22cd38daHJKr36&mp=1&pdp_npi=6%40dis%21PLN%21PLN+104.91%21PLN+68.19%21%21PLN+64.34%21%21%21%4021038a8017801474358407332e1105%2112000040535158057%21ct%21PL%212606898544%21%213%210%21&gatewayAdapt=glo2pol 
+    - 4x 5.8 GHz Omnidirectional Antenna
+    https://pl.aliexpress.com/item/1005009202901201.html?spm=a2g0o.cart.0.0.22cd38daHJKr36&mp=1&pdp_npi=6%40dis%21PLN%21PLN+31.99%21PLN+31.99%21%21PLN+31.99%21%21%21%4021038a8017801474358407332e1105%2112000048286198715%21ct%21PL%212606898544%21%214%210%21&gatewayAdapt=glo2pol Select: 150MM Black SMA RHCP
+    - WiFi module + antennas mount
+    [TO BE 3D PRINTED]
+    - Standalone link receiver (RPi5 + BL-M8812EU + Touchscreen)
