@@ -51,7 +51,7 @@ Use it as a reference when buying replacement parts.
     - Weight: ~1kg
     - Reach and load: 200g at max reach of 0.5m
 
-13. Robotic Arm Mount - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl)
+13. Robotic Arm Mount + Power Supply - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl). Hand-made 3S power supply with a generic BMS module, delivering raw 3S output to the arm's driver board (requires a battery charger, no on-board charger module).
 
 14. Camera - Raspberry Pi Camera Module 3 
 	- Official Site: https://www.raspberrypi.com/products/camera-module-3/
