@@ -74,3 +74,7 @@ Use it as a reference when buying replacement parts.
 
 19. Radio Controller: [IN PROCESS OF DESIGNING]
 	- RPi5 + BL-M8812EU + Touchscreen + Xbox Controller + Battery Pack + LoRa(?)
+
+20. GNSS module for positioning
+	- ublox NEO-M8N module on a GY-GPS6mV2 board (this board usually comes with NEO-M6 so careful) https://kamami.pl/moduly/1199860-ublox-gygpsv1-neo-8m-modul-gps-5902186329645.html 
+	- ceramic antenna (comes with the module, on a small pigtail terminated with IPEX)
