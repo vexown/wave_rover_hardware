@@ -7,11 +7,11 @@ Use it as a reference when buying replacement parts.
 
 3. Motor Controller - SeeedStudio XIAO ESP32C6 board: https://wiki.seeedstudio.com/xiao_esp32c6_getting_started/ 
 
-4. Power Supply (for Lower Computer, Motor Controller and Wheel Motors) - Waveshare UPS module: https://www.waveshare.com/ups-module-3s.htm
+4. Power Supply for Lower Computer, Motor Controller, Wheel Motors, and BL-M8812EU2 module 
+	- Waveshare 3S UPS module: https://www.waveshare.com/ups-module-3s.htm
+	- Batteries for Power Supply - Sanyo NCR18650GA - akumulator Li-Ion 18650 3,7V 3500mAh
 
-5. Batteries for Power Supply - Sanyo NCR18650GA - akumulator Li-Ion 18650 3,7V 3500mAh
-
-6. Motors (x4) - https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
+5. Motors (x4) - https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
     - Model: JGB37-520 Encoder Pulley
     - Rated voltage: 12V
     - Speed: 110RPM (no load)
@@ -20,8 +20,9 @@ Use it as a reference when buying replacement parts.
     - Reducation ratio: 90
     - Motor size: 60mm length (with encoder, without shaft), 37mm diameter (gets smaller in certain parts)
     - Output shaft: 15mm D-shaft with 6mm diameter (5.5mm measuring from flat D part)
+	- Metal Brackets with 4 M3 screw holes
 
-7. Motor Driver - originally dual-channel TB6612FNG on the wave rover Lower Computer but replaced with 2 one-channel BTS7960B-based drivers:
+6. Motor Driver - originally dual-channel TB6612FNG on the wave rover Lower Computer but replaced with 2 one-channel BTS7960B-based drivers:
     - H-bridge based on two BTS7960 chips
     - Motor operating voltage: from 5V to 27V
     - Control voltage: from 3.3V to 5V
@@ -31,50 +32,51 @@ Use it as a reference when buying replacement parts.
     - Built-in buffer: separating power circuits from control signal (74HC244)
     - Dimensions: 50x50x40 mm
 
-8. Motor Expanders - 3D-printed pieces which extend the placement of the motors from the small wave rover frame into much bigger size
+7. Motor Expanders - 3D-printed pieces which extend the placement of the motors from the small wave rover frame into much bigger size
     - See MotorExpander.stl in 3D_Models
 
-9. Metal Brackets with 4 M3 screw holes
-
-10. Wheels with Tires (x4) - came with the motors: https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
+8. Wheels with Tires (x4) - came with the motors: https://pl.aliexpress.com/item/1005005948951185.html?spm=a2g0o.store_pc_allItems_or_groupList.0.0.3d126652mTZI8J&pdp_npi=4%40dis%21PLN%2166%2C54%20z%C5%82%2164%2C19%20z%C5%82%21%21%21127.28%21122.79%21%40211b617b17593505124053754ea790%2112000041755075654%21sh%21PL%212606898544%21X&_gl=1*1iqk10o*_gcl_aw*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_dc*R0NMLjE3NTkwODQ3MDQuQ2p3S0NBand1ZVBHQmhCWkVpd0FJR0NWUzdJT3RnMkZFLXktcTJjM0pkbFpsZTlfZDVhR2lHVVRRcm1Cd1VSQ0ZmOG91WTVoeF96WTd4b0NrU29RQXZEX0J3RQ..*_gcl_au*MTc4NjU5MTk4Ni4xNzU5MDgyNDk5*_ga*MTQzODY0ODI2NC4xNzM5NjI2Mjgz*_ga_VED1YSGNC7*czE3NTkzNDg0OTgkbzIxJGcxJHQxNzU5MzUwNTEzJGo0OSRsMCRoMA..&gatewayAdapt=glo2pol#nav-specification
     - Diameter: 87mm
     - Width: 40mm
     - Hex Hub: ? [to be measured]
     - Thread Type: Offroad, with dimples
 
-11. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
+9. Screen: 128x32 pixel SSD1306-based 0.91-inch OLED display (I couldn't find exact match but this is the closest: https://www.waveshare.com/0.91inch-oled-module.htm)
 
-12. Robotic Arm - an addition to the rover to extend its capabilities. 5 + 1 DOF High-Torque Serial Bus Servo Robotic Arm Kit
+10. Robotic Arm - an addition to the rover to extend its capabilities. 5 + 1 DOF High-Torque Serial Bus Servo Robotic Arm Kit
     - Model: RoArm-M3-Pro from Waveshare https://www.waveshare.com/roarm-m3.htm
     - Firmware and MCU: ESP32-based, open-source firmware
     - Communication: WiFi / ESP-NOW / USB / UART
     - Weight: ~1kg
     - Reach and load: 200g at max reach of 0.5m
+	- Robotic Arm Mount + Power Supply - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl). Hand-made 3S power supply with a generic BMS module, delivering raw 3S output to the arm's driver board (requires a battery charger, no on-board charger module).
 
-13. Robotic Arm Mount + Power Supply - a 3D-printed mount connecting the RoArm-M3-Pro to the WaveRover (See ArmMount.stl and ArmMountStand.stl). Hand-made 3S power supply with a generic BMS module, delivering raw 3S output to the arm's driver board (requires a battery charger, no on-board charger module).
-
-14. Camera - Raspberry Pi Camera Module 3 
+11. Camera - Raspberry Pi Camera Module 3 
 	- Official Site: https://www.raspberrypi.com/products/camera-module-3/
 	- 12-megapixel camera built around the Sony IMX708 sensor with a resolution of 4608 × 2592 pixels
 	- There is a few options of this camera, I use the Standard, normal FoV model
 
-15. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
+12. Bumpers - 3D-printed pieces which are mounted on the front/back/side of the rover to carry additional elements (motor drivers, lights and more)
 
-16. LoRa Li-po powered emergency control / life beacon module: [NOT ADDED YET]
+13. LoRa Li-po powered emergency control / life beacon module: [NOT ADDED YET]
 	- Heltec V3 LoRa module with Li-po management (SX1262 + ESP32-S3):  https://wiki.heltec.org/docs/devices/open-source-hardware/esp32-series/lora-32/wifi-lora-32-v3/
 	- 1 Li-ion 18650 cell with cell holder
 
-17. High data-rate RF setup (video streaming and more):
-    - 2x LB-LINK BL-M8812EU2 modules (RTL8812EU chipset, 5.8 GHz bare PCB). Controlled via USB connection. Dimensions: 32*32*3.4mm. Power: DC 5,0 V ± 0,25 V at 1800 mA (max)
+14. High data-rate RF setup (video streaming and more) - rover side:
+    - 1x LB-LINK BL-M8812EU2 module (RTL8812EU chipset, 5.8 GHz bare PCB). Controlled via USB connection. Dimensions: 32*32*3.4mm. Power: DC 5,0 V ± 0,25 V at 1800 mA (max)
     https://pl.aliexpress.com/item/1005007386940533.html?spm=a2g0o.cart.0.0.22cd38daHJKr36&mp=1&pdp_npi=6%40dis%21PLN%21PLN+104.91%21PLN+68.19%21%21PLN+64.34%21%21%21%4021038a8017801474358407332e1105%2112000040535158057%21ct%21PL%212606898544%21%213%210%21&gatewayAdapt=glo2pol 
-    - 4x 5.8 GHz Omnidirectional Antenna (FlyFishRC Osprey 5.8Ghz Antenna SMA)
+    - 2x 5.8 GHz Omnidirectional Antenna (FlyFishRC Osprey 5.8Ghz Antenna SMA)
     https://pl.aliexpress.com/item/1005009202901201.html?spm=a2g0o.cart.0.0.22cd38daHJKr36&mp=1&pdp_npi=6%40dis%21PLN%21PLN+31.99%21PLN+31.99%21%21PLN+31.99%21%21%21%4021038a8017801474358407332e1105%2112000048286198715%21ct%21PL%212606898544%21%214%210%21&gatewayAdapt=glo2pol Select: 150MM Black SMA RHCP
-    
-18. High data-rate RF setup mount - [IN PROCESS OF DESIGNING]
+	- 3D printed mount (see FPV_Module_Holder.stl in 3D_Models)
 
-19. Radio Controller: [IN PROCESS OF DESIGNING]
-	- RPi5 + BL-M8812EU + Touchscreen + Xbox Controller + Battery Pack + LoRa(?)
+15. Radio Controller: [IN PROCESS OF DESIGNING]
+	- Raspberry Pi 5 4GB RAM
+	- BL-M8812EU with two 5.8GHz antennas for wireless link (see point 17)
+	- Waveshare 7inch Capacitive Touch Screen LCD (H), 1024×600, HDMI (https://www.waveshare.com/7inch-hdmi-lcd-h.htm?srsltid=AYCX9vJNE794-IBuaVDfhIoO9wDA_02usUjqr42hYzXec5pWhAw4y1W9)
+	- Xbox 360 Controller + dedicated Microsoft receiver for it (connects via USB to the Pi, the controller itself is wireless)
+	- Waveshare 3S UPS module: https://www.waveshare.com/ups-module-3s.htm + 3x Li-Ion Sanyo NCR18650GA 3.6V 3450mAh 10A
 
-20. GNSS module for positioning
+16. GNSS module for positioning
 	- ublox NEO-M8N module on a GY-GPS6mV2 board (this board usually comes with NEO-M6 so careful) https://kamami.pl/moduly/1199860-ublox-gygpsv1-neo-8m-modul-gps-5902186329645.html 
 	- ceramic antenna (comes with the module, on a small pigtail terminated with IPEX)
+	- 3D printed mount (see GNSS_Holder.stl)
